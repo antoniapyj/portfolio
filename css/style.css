@@ -101,7 +101,6 @@ nav{
   left: 0;
   width: 100%;
   z-index: 9998;
-  padding: 0 30px;
   transition: all 0.5s;
 }
   .scrollUp{
@@ -139,15 +138,6 @@ background-image: url(../images/logo-blk-sml.png);
 /*for mobile*/
 
 
-.mobile_index{
-
-background-image: url(../images/intro-mid.jpg);
-background-size: cover;
-height: 350px;
-padding: 80px 0;
-
-}
-
 .mobile_title{
   position: relative;
 float: right;
@@ -155,38 +145,38 @@ margin-right: 30px;
   text-align: center;
 }
 
-.mobile-menu-container{
-
-      position: fixed;
-       width: 100%;
-       z-index: 10;
-}
-
-
 
 .mobile-menu{
 
 text-align: center;
 display: none;
- background: rgba(255,255,255,0.8);
-    padding: 5px 10px 0;
+float: right;
+    position: relative;
+    width: 50px;
+    height: 50px;
+           z-index: 10;
+       margin-top: 20px;
+       float: right;
 }
 
-
-.mobile-logo{
-
-  width: 50px;
-  margin: -10px auto 0;
+.mobile-menu-icon{
+  padding: 5px  4px;
+font-size: 1.7rem;
+cursor: pointer;
 }
 
 #mobile-menu-list{
 
 position: relative;
-background-color: rgba(43,43,107,0.9);
+display: none;
+background-color: #fff;
 color: white;
 width: 100%;
-padding: 10px 0;
 height: 180px;
+opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 
 ul{
@@ -202,7 +192,6 @@ li{
     margin: 0 auto;
     height: 40px;
     text-align: center;
-    font-family: 'astounder-squared-bb', sans-serif;
     letter-spacing: 3px;
 }
 
@@ -219,7 +208,7 @@ border:none;
 
 #homepage {
 
-  background-image: url("../images/cover2.jpg");
+  background-image: url("../images/cover.jpg");
       background-size: cover;
     height: 100%;
 }
@@ -333,15 +322,32 @@ text-decoration: underline;
 .social_links a {
   margin-right: 5px;
 }
-@media (max-width: 400px){
 
+#mobile-homepage{
+  display: none;
+}
+
+#mobile-homepage img{
+  width: 100%;
 }
 
 
 @media (max-width: 575px){
 
- 
+ .navbar{
 
+  display: none;
+ }
+
+.mobile-menu{
+  display:inline-block;
+}
+#homepage{
+  display: none;
+}
+#mobile-homepage{
+  display: inline-block;
+}
 
 }
 
@@ -351,6 +357,3 @@ text-decoration: underline;
 
 }
 
-@media (max-width: 700px){
-
- }

@@ -19,11 +19,20 @@ var c, currentScrollTop = 0,
   });
 
 
-  $('.mobile-menu-icon').click(function(){
 
-$('#mobile-menu-list').toggleClass('d-none d-inline-block');
 
-  });
+$('.mobile-menu-icon').click(function(){
+if ( $( "#mobile-menu-list" ).is( ":hidden" ) ) {
+    $( "#mobile-menu-list" ).slideDown( "fast" );
+     $('.mobile-menu-icon').removeClass('fa-bar');
+       $('.mobile-menu-icon').addClass('fa-times');
+
+  } else {
+    $( "#mobile-menu-list" ).slideUp("fast");
+     $('.mobile-menu-icon').removeClass('fa-times');
+       $('.mobile-menu-icon').addClass('fa-bar');
+  }
+});
 
 
 
