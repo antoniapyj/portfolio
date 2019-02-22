@@ -1,0 +1,356 @@
+
+
+
+
+
+@font-face {
+    font-family: manus;
+    src: url(../fonts/Manus_Smooth_TRIAL.ttf);
+}
+
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(../fonts/AppleGaramond.ttf);
+}
+
+
+
+html,body
+{
+width: 100%;  
+height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: futura-pt, sans-serif;
+}
+
+
+
+.container{
+  padding: 0;
+height: 100%;
+}
+
+h1{
+    font-family: futura-pt, sans-serif;
+font-size: 2rem;
+
+}
+
+
+h2{
+font-family: nimbus-sans, sans-serif;
+font-weight: 700;
+font-size: 1.2rem;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+button{
+  background:transparent;
+  border: none;
+  color: #fff;
+}
+
+button:focus {
+  outline:0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration:underline; 
+    color:#ec4e27;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#myInput{
+  color: white;
+}
+
+nav{
+  background: #fff;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 1px 1px 1px rgba(0, 0,0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9998;
+  padding: 0 30px;
+  transition: all 0.5s;
+}
+  .scrollUp{
+    transform: translateY(-80px)
+  }
+
+.logo{
+
+  width: 80px;
+  float: left;
+}
+.logo img{
+  width: 100%;
+}
+
+.navbar{float: right;}
+
+.navbar a{
+  margin: 0 20px;
+}
+.header-logo{
+
+  width: 80px;
+  height: 17px;
+  margin: 0 auto;
+background-image: url(../images/logo-blk-sml.png);
+}
+
+#navbar h3{
+
+  font-size: 1.2rem;
+}
+
+
+/*for mobile*/
+
+
+.mobile_index{
+
+background-image: url(../images/intro-mid.jpg);
+background-size: cover;
+height: 350px;
+padding: 80px 0;
+
+}
+
+.mobile_title{
+  position: relative;
+float: right;
+margin-right: 30px;
+  text-align: center;
+}
+
+.mobile-menu-container{
+
+      position: fixed;
+       width: 100%;
+       z-index: 10;
+}
+
+
+
+.mobile-menu{
+
+text-align: center;
+display: none;
+ background: rgba(255,255,255,0.8);
+    padding: 5px 10px 0;
+}
+
+
+.mobile-logo{
+
+  width: 50px;
+  margin: -10px auto 0;
+}
+
+#mobile-menu-list{
+
+position: relative;
+background-color: rgba(43,43,107,0.9);
+color: white;
+width: 100%;
+padding: 10px 0;
+height: 180px;
+}
+
+ul{
+
+ padding: 0;
+
+}
+
+li{
+    border-bottom: solid 1px white;
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    font-family: 'astounder-squared-bb', sans-serif;
+    letter-spacing: 3px;
+}
+
+li:nth-child(4){
+border:none;
+
+}
+
+
+
+/*end for mobile*/
+
+
+
+#homepage {
+
+  background-image: url("../images/cover2.jpg");
+      background-size: cover;
+    height: 100%;
+}
+
+
+.intro_text_box{
+
+  width: 580px;
+  margin: 0 auto;
+  padding-top: 280px;
+  text-align: center;
+
+}
+
+.intro_text{
+  padding: 20px 0;
+  line-height: 50px;
+  background-color: white;
+  
+}
+
+.intro_text h1 {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgba(236,76,39,1); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 4s steps(30, end),
+    blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(236,76,39,1); }
+}
+
+#portfolio {
+
+  background:#F3F3F3;
+  padding: 50px 0 80px;
+}
+.thumbnail_wrapper{
+  position: relative;
+    margin-bottom: 30px;
+}
+
+.thumbnail{
+
+  padding: 0 20px;
+
+}
+
+.thumbnail img{
+width: 100%;
+}
+
+.hover{
+  background-color: #f3f3f3;}
+
+
+.title{
+ display: none;
+  padding: 0 20px;
+    position: absolute;
+    width: 100%;
+   bottom:50%;
+   text-align: center;
+ }
+
+.title h2{
+text-transform: uppercase;
+margin: 0 auto;
+position: relative;
+vertical-align: middle;
+width: 80%;
+}
+
+.footer_wrapper{
+
+  width: 80%;
+  margin: 100px auto 50px;
+  padding: 0 20px;
+
+}
+.footer_wrapper h3{
+  line-height: 40px;
+}
+.footer_wrapper a{
+
+text-decoration: underline;
+
+}
+
+.social_links{
+
+  margin-top: 60px;
+  font-size: 1.4rem;
+}
+
+.social_links a {
+  margin-right: 5px;
+}
+@media (max-width: 400px){
+
+}
+
+
+@media (max-width: 575px){
+
+ 
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 700px){
+ 
+
+}
+
+@media (max-width: 700px){
+
+ }
