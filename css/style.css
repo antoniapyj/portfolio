@@ -383,8 +383,8 @@ text-decoration: underline;
 }
 
 
-.dh_header{
-background-image: url('../images/digitalhorizons.jpg');
+.lj_header{
+background-image: url('../images/landscapejars_header.jpg');
 }
 
 
@@ -392,8 +392,8 @@ background-image: url('../images/digitalhorizons.jpg');
 background-image: url('../images/galaxy.jpg');
 }
 
-.csn_header{
-  background-image: url('../images/csn_header.jpg');
+.adiml_header{
+  background-image: url('../images/adiml_cover.jpg');
 }
 
 .sb_header{
@@ -402,9 +402,9 @@ background-image: url('../images/sbcover.jpg');
 }
 
 
-.hp_header{
+.vs_header{
 
-background-image: url('../images/hp_header.jpg');
+background-image: url('../images/vs_header.jpg');
 }
 
 .animation_header{

@@ -68,12 +68,12 @@ $('.sally').mouseleave(function(){
 });
 
 
-$('.csn').mouseover(function(){
-  $('.title_csn').fadeIn();
+$('.adiml').mouseover(function(){
+  $('.title_adiml').fadeIn();
 });
 
-$('.csn').mouseleave(function(){
-  $('.title_csn').fadeOut();
+$('.adiml').mouseleave(function(){
+  $('.title_adiml').fadeOut();
 });
 
 $('.pause').mouseover(function(){
@@ -100,20 +100,20 @@ $('.sketchbook').mouseleave(function(){
   $('.title_sketchbook').fadeOut();
 });
 
-$('.dh').mouseover(function(){
-  $('.title_dh').fadeIn();
+$('.lj').mouseover(function(){
+  $('.title_lj').fadeIn();
 });
 
-$('.dh').mouseleave(function(){
-  $('.title_dh').fadeOut();
+$('.lj').mouseleave(function(){
+  $('.title_lj').fadeOut();
 });
 
-$('.hotpot').mouseover(function(){
-  $('.title_hotpot').fadeIn();
+$('.vitaminsea').mouseover(function(){
+  $('.title_vitaminsea').fadeIn();
 });
 
-$('.hotpot').mouseleave(function(){
-  $('.title_hotpot').fadeOut();
+$('.vitaminsea').mouseleave(function(){
+  $('.title_vitaminsea').fadeOut();
 });
 
 
