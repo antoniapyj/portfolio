@@ -84,12 +84,12 @@ $('.pause').mouseleave(function(){
   $('.title_pause').fadeOut();
 });
 
-$('.nihow').mouseover(function(){
-  $('.title_nihow').fadeIn();
+$('.inktober').mouseover(function(){
+  $('.title_inktober').fadeIn();
 });
 
-$('.nihow').mouseleave(function(){
-  $('.title_nihow').fadeOut();
+$('.inktober').mouseleave(function(){
+  $('.title_inktober').fadeOut();
 });
 
 $('.sketchbook').mouseover(function(){
